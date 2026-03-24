@@ -62,7 +62,6 @@ The data includes intentional dirty data: inconsistent casing, extra spaces, NUL
 - `PARTITION BY`: splits the window into groups, similar to GROUP BY but keeps all rows
 - `ORDER BY` inside OVER: controls row order within the window
 - `RANK()`: ranks rows within a partition, ties get the same rank and skip the next number
-- `DENSE_RANK()`: same as RANK but no skipping on ties
 - Running totals using default frame behavior
 
 **LAG for Trend Analysis**
